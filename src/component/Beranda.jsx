@@ -36,7 +36,8 @@ export default function Home() {
   }, [slides.length]);
 
   return (
-    <section id="home" className="sm:mt-8 mt-12">
+    <>
+    <section id="home">
       <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 flex flex-col-reverse sm:flex-row sm:gap-4 gap-8 relative">
         <div className="sm:col-span-6">
           <h1 className="font-bold text-5xl text-black">Apotek Barito</h1>
@@ -58,13 +59,12 @@ export default function Home() {
             </ul>
           </div>
           <div>
-      <button className="button1 bg-transparent rounded-3xl font-semibold py-4 px-12 border border-green-500 hover:border-transparent rounded transition-colors duration-500 mt-5 text-xl">
-        Cari Obat!
-      </button>
-    </div>
+            <button className="button1 bg-transparent rounded-3xl font-semibold py-4 px-12 border border-green-500 hover:border-transparent rounded transition-colors duration-500 mt-5 text-xl">
+              Cari Obat!
+            </button>
+          </div>
         </div>
         <div className="relative sm:col-span-6 bottom-16">
-          {" "}
           <div className="relative">
             <img
               src={slides[currentSlide].image}
@@ -75,5 +75,30 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <section>
+      <div>
+        <h1 className="text-black text-3xl font-bold justify-center text-center relative">Kata Sambutan</h1>
+      </div>
+      <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 flex flex-col-reverse sm:flex-row sm:gap-4 gap-8 relative mt-10">
+        <div className="relative sm:col-span-6 bottom-32">
+          <div className="relative">
+            <img
+              src="src/assets/Apooteker.png"
+              alt="Apoteker"
+              className="w-full sm:w-auto md:max-w-[1000px]  mx-auto rounded-full justify-center relative"
+            />
+            <h1 className="text-2xl font-bold text-black justify-center text-center relative">Sela Puzi Dina</h1>
+          </div>
+        </div>
+        <div className="sm:col-span-6">
+          <div className="text-gray-600 mt-8">
+            <p>
+            Dengan komitmen penuh dari diri saya sendiri, saya berjanji untuk memberikan pelayanan yang tak hanya ramah, tetapi juga profesional dan informatif kepada Anda. Dengan adanya Apotek Barito, saya bersedia menjadi mitra terpercaya Anda dalam menjaga kesehatan dan kecantikan. Mari cerdas gunakan obat! Bersama-sama, kita akan mendapatkan informasi seputar obat di Apotek Barito untuk memastikan Anda selalu membuat keputusan yang dan bijak dan sesuai dengan kesehatan Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </>
   );
 }

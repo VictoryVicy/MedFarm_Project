@@ -1,16 +1,29 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header>
-      <div className="bg-transparent fixed top-0 w-full z-10">
+    <header className={window.innerWidth < 768 && scrollY > 0 ? "bg-white" : "bg-transparent"}>
+      <div className="fixed top-0 w-full z-10">
         <div className="container mx-auto px-4 py-6">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
@@ -40,7 +53,7 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex text-black">
               <ul className="flex gap-8">
-                <li>
+              <li>
                   <a
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                     href="#home"
@@ -123,7 +136,7 @@ export default function Navbar() {
         className="lg:hidden overflow-hidden mt-10 display-flex align-center justify-center text-center shadow-lg"
       >
         <ul className="flex flex-col gap-4 mt-4">
-          <motion.li
+        <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
             onClick={toggleNavbar}
