@@ -68,8 +68,8 @@ export default function Home() {
           <div className="relative">
             <img
               src={slides[currentSlide].image}
-              alt="Victory"
-              className="w-full sm:w-auto h-auto md:max-w-[1000px] max-h-[450px]  mx-auto"
+              alt="Barito"
+              className="w-full sm:w-auto md:max-w-[1000px] max-h-[450px]  mx-auto"
             />
           </div>
         </div>

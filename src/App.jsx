@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./component/Navbar";
-import Home from "./component/Home";
+import Beranda from "./component/Beranda";
 import Projects from "./component/Projects";
 import Skill from "./component/Skill";
 import About from "./component/About";
@@ -11,7 +11,7 @@ export default function App() {
     <>
       <main>
         <Navbar />
-        <Home />
+        <Beranda />
         <Projects />
         <Skill />
         <About />
