@@ -4,6 +4,7 @@ import Barito2 from "../assets/Barito2.png";
 import Barito3 from "../assets/Barito3.png";
 import Barito4 from "../assets/Barito4.png";
 import Barito5 from "../assets/Barito5.png";
+import Map from "./Map"; // Import komponen Map yang telah dibuat sebelumnya
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -98,6 +99,93 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </section>
+    <section>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 className="text-black text-3xl font-bold justify-center text-center relative">Produk Obat</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+          {/* Card 1 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="gambar_obat_1.jpg" alt="Obat 1" className="w-full h-40 object-cover" />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 1</h3>
+              <p className="text-gray-600">Harga: Rp. 50.000</p>
+            </div>
+          </div>
+          {/* Card 2 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="gambar_obat_2.jpg" alt="Obat 2" className="w-full h-40 object-cover" />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 2</h3>
+              <p className="text-gray-600">Harga: Rp. 75.000</p>
+            </div>
+          </div>
+          {/* Card 3 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="gambar_obat_3.jpg" alt="Obat 3" className="w-full h-40 object-cover" />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 3</h3>
+              <p className="text-gray-600">Harga: Rp. 60.000</p>
+            </div>
+          </div>
+          {/* Card 4 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="gambar_obat_4.jpg" alt="Obat 4" className="w-full h-40 object-cover" />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 4</h3>
+              <p className="text-gray-600">Harga: Rp. 80.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+    <section>
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <h2 className="text-black text-3xl font-bold justify-center text-center relative">Layanan</h2>
+    <div className="grid grid-cols-1 gap-6 mt-8">
+      {/* Card 1 */}
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="gambar_obat_1.jpg" alt="Obat 1" className="w-full h-40 object-cover" />
+        <div className="p-4">
+          <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 1</h3>
+          <p className="text-gray-600">Harga: Rp. 50.000</p>
+        </div>
+      </div>
+      {/* Card 2 */}
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="gambar_obat_2.jpg" alt="Obat 2" className="w-full h-40 object-cover" />
+        <div className="p-4">
+          <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 2</h3>
+          <p className="text-gray-600">Harga: Rp. 75.000</p>
+        </div>
+      </div>
+      {/* Card 3 */}
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="gambar_obat_3.jpg" alt="Obat 3" className="w-full h-40 object-cover" />
+        <div className="p-4">
+          <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 3</h3>
+          <p className="text-gray-600">Harga: Rp. 60.000</p>
+        </div>
+      </div>
+      {/* Card 4 */}
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="gambar_obat_4.jpg" alt="Obat 4" className="w-full h-40 object-cover" />
+        <div className="p-4">
+          <h3 className="text-lg font-semibold text-black mb-2">Nama Obat 4</h3>
+          <p className="text-gray-600">Harga: Rp. 80.000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </section>
+    <section>
+      <div>
+        <h1 className="text-black text-3xl font-bold justify-center text-center relative">Lokasi</h1>
+      </div>
+      <Map /> {/* Tambahkan komponen Map di sini */}
     </section>
     </>
   );
