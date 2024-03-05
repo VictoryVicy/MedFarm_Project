@@ -185,7 +185,7 @@ export default function Home() {
       <div>
         <h1 className="text-black text-3xl font-bold justify-center text-center relative">Lokasi</h1>
       </div>
-      <Map /> {/* Tambahkan komponen Map di sini */}
+      <Map />
     </section>
     </>
   );

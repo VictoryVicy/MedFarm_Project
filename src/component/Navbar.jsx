@@ -100,16 +100,6 @@ export default function Navbar() {
                     onClick={toggleNavbar}
                   >
                     <span className="underline"></span>
-                    FAQ
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#contact"
-                    onClick={toggleNavbar}
-                  >
-                    <span className="underline"></span>
                     Lokasi
                   </a>
                 </li>
@@ -170,15 +160,6 @@ export default function Navbar() {
           >
             <a href="#about" className="hover:underline">
               Cari Obat
-            </a>
-          </motion.li>
-          <motion.li
-            whileHover={{ scale: 1.1 }}
-            className="cursor-pointer text-black hover:text-green-500 relative font-bold"
-            onClick={toggleNavbar}
-          >
-            <a href="#contact" className="hover:underline">
-              FAQ
             </a>
           </motion.li>
           <motion.li
