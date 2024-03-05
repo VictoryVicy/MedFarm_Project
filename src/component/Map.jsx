@@ -27,7 +27,7 @@ const Map = () => {
     };
   }, []); // Hanya dijalankan sekali saat komponen dimount pertama kali
 
-  return <div id="map" className="w-[100%] h-[300px] mt-8"></div>; 
+  return <div id="map" className="w-[100%] h-[325px]"></div>; 
 };
 
 export default Map;

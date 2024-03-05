@@ -101,8 +101,11 @@ export default function Home() {
       </div>
     </section>
     <section>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 className="text-black text-3xl font-bold justify-center text-center relative">Produk Obat</h2>
+    <div>
+        <h1 className="text-black text-3xl font-bold justify-center text-center relative">Produk Obat</h1>
+      </div>
+      <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 sm:gap-4 gap-8 relative mt-10">
+        <div className="relative sm:col-span-6 bottom-32">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           {/* Card 1 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -137,11 +140,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </div>
       </div>
     </section>
     <section>
     <section>
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-10">
     <h2 className="text-black text-3xl font-bold justify-center text-center relative">Layanan</h2>
     <div className="grid grid-cols-1 gap-6 mt-8">
       {/* Card 1 */}
@@ -182,8 +186,13 @@ export default function Home() {
 
     </section>
     <section>
-      <div>
-        <h1 className="text-black text-3xl font-bold justify-center text-center relative">Lokasi</h1>
+      <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 flex flex-col-reverse sm:flex-row sm:gap-4 gap-8 relative justify-center text-center">
+        <div className="relative sm:col-span-6">
+          
+    <div>
+        <h1 className="text-black text-3xl font-bold relative">Lokasi</h1>
+      </div>
+        </div>
       </div>
       <Map />
     </section>
