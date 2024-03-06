@@ -4,10 +4,9 @@ import "leaflet/dist/leaflet.css";
 
 const Map = () => {
   useEffect(() => {
-    // Inisialisasi peta dengan zoom yang lebih kecil
     const map = L.map("map", {
-      center: [-6.1753924, 106.8271528],
-      zoom: 10, // Misalnya zoom 10 untuk membuat peta lebih kecil
+      center: [-3.010368, 114.395199],
+      zoom: 10,
     });
 
     // Tambahkan layer peta dasar
@@ -16,7 +15,7 @@ const Map = () => {
     }).addTo(map);
 
     // Tambahkan marker pada lokasi
-    L.marker([-6.1753924, 106.8271528])
+    L.marker([-3.010368, 114.395199])
       .addTo(map)
       .bindPopup("Lokasi Apotek Barito")
       .openPopup();
