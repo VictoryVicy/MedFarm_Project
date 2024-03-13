@@ -110,31 +110,31 @@ export default function Home() {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img src="src/assets/Paracetamol.png" alt="Obat 1" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-black mb-2">Paracetamol</h3>
-              <p className="text-gray-700">Harga: Rp. 4.000</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Paracetamol</h3>
+              <p className="text-white">Rp. 4.000</p>
             </div>
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img src="src/assets/Ibuprofen.png" alt="Obat 2" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-black mb-2">Ibuprofen</h3>
-              <p className="text-gray-700">Harga: Rp. 6.000</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Ibuprofen</h3>
+              <p className="text-white">Rp. 6.000</p>
             </div>
           </div>
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img src="src/assets/Loperamide.png" alt="Obat 3" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-black mb-2">Loperamide</h3>
-              <p className="text-gray-700">Harga: Rp. 2.500</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Loperamide</h3>
+              <p className="text-white">Rp. 2.500</p>
             </div>
           </div>
           {/* Card 4 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img src="src/assets/Loratadine.png" alt="Obat 4" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-black mb-2">Loratadine</h3>
-              <p className="text-gray-700">Harga: Rp. 5.000</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Loratadine</h3>
+              <p className="text-white">Rp. 5.000</p>
             </div>
           </div>
         </div>
@@ -150,32 +150,32 @@ export default function Home() {
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <img src="src/assets/Tekanan darah.png" alt="Obat 1" className="w-full h-40 object-cover" />
         <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-black mb-2">Cek tekanan darah</h3>
-          <p className="text-gray-700">Harga: Rp. 5.000</p>
+          <h3 className="text-lg font-semibold text-white mb-2">Cek tekanan darah</h3>
+          <p className="text-white">Rp. 5.000</p>
         </div>
       </div>
       {/* Card 2 */}
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <img src="src/assets/Asam urat.png" alt="Obat 2" className="w-full h-40 object-cover" />
         <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-black mb-2">Cek asam urat</h3>
-          <p className="text-gray-700">Harga: Rp. 15.000</p>
+          <h3 className="text-lg font-semibold text-white mb-2">Cek asam urat</h3>
+          <p className="text-white">Rp. 15.000</p>
         </div>
       </div>
       {/* Card 3 */}
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <img src="src/assets/Gula darah.png" alt="Obat 3" className="w-full h-40 object-cover" />
         <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-black mb-2">Cek gula darah</h3>
-          <p className="text-gray-700">Harga: Rp. 15.000</p>
+          <h3 className="text-lg font-semibold text-white mb-2">Cek gula darah</h3>
+          <p className="text-white">Rp. 15.000</p>
         </div>
       </div>
       {/* Card 4 */}
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <img src="src/assets/Kolesterol.png" alt="Obat 4" className="w-full h-40 object-cover" />
         <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-black mb-2">Cek kolesterol</h3>
-          <p className="text-gray-700">Harga: Rp. 20.000</p>
+          <h3 className="text-lg font-semibold text-white mb-2">Cek kolesterol</h3>
+          <p className="text-white">Rp. 20.000</p>
         </div>
       </div>
     </div>
