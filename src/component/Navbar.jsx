@@ -21,6 +21,10 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const closeNavbar = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className={window.innerWidth < 768 && scrollY > 0 ? "bg-white" : "bg-transparent"}>
       <div className="fixed top-0 w-full z-10">
@@ -53,11 +57,11 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex text-black">
               <ul className="flex gap-8">
-              <li>
+                <li>
                   <a
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#home"
-                    onClick={toggleNavbar}
+                    href="#beranda"
+                    onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Beranda
@@ -66,8 +70,8 @@ export default function Navbar() {
                 <li>
                   <a
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#projects"
-                    onClick={toggleNavbar}
+                    href="#produk"
+                    onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Produk
@@ -77,7 +81,7 @@ export default function Navbar() {
                   <a
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                     href="#skill"
-                    onClick={toggleNavbar}
+                    onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Layanan
@@ -87,7 +91,7 @@ export default function Navbar() {
                   <a
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                     href="#about"
-                    onClick={toggleNavbar}
+                    onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Cari Obat
@@ -97,7 +101,7 @@ export default function Navbar() {
                   <a
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                     href="#contact"
-                    onClick={toggleNavbar}
+                    onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Lokasi
@@ -107,7 +111,7 @@ export default function Navbar() {
                   <a
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                     href="#contact"
-                    onClick={toggleNavbar}
+                    onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Admin
@@ -126,28 +130,28 @@ export default function Navbar() {
         className="lg:hidden overflow-hidden mt-10 display-flex align-center justify-center text-center shadow-lg"
       >
         <ul className="flex flex-col gap-4 mt-4">
-        <motion.li
+          <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
-            onClick={toggleNavbar}
+            onClick={closeNavbar}
           >
-            <a href="#home" className="hover:underline">
+            <a href="#beranda" className="hover:underline">
               Beranda
             </a>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
-            onClick={toggleNavbar}
+            onClick={closeNavbar}
           >
-            <a href="#projects" className="hover:underline">
+            <a href="#produk" className="hover:underline">
               Produk
             </a>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
-            onClick={toggleNavbar}
+            onClick={closeNavbar}
           >
             <a href="#skill" className="hover:underline">
               Layanan
@@ -156,7 +160,7 @@ export default function Navbar() {
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
-            onClick={toggleNavbar}
+            onClick={closeNavbar}
           >
             <a href="#about" className="hover:underline">
               Cari Obat
@@ -165,7 +169,7 @@ export default function Navbar() {
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
-            onClick={toggleNavbar}
+            onClick={closeNavbar}
           >
             <a href="#contact" className="hover:underline">
               Lokasi
@@ -174,7 +178,7 @@ export default function Navbar() {
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
-            onClick={toggleNavbar}
+            onClick={closeNavbar}
           >
             <a href="#contact" className="hover:underline">
               Admin

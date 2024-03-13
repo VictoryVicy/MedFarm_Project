@@ -38,7 +38,7 @@ export default function Home() {
 
   return (
     <>
-    <section id="home">
+    <section id="beranda">
       <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 flex flex-col-reverse sm:flex-row sm:gap-4 gap-8 relative">
         <div className="sm:col-span-6">
           <h1 className="font-bold text-5xl text-black">Apotek Barito</h1>
