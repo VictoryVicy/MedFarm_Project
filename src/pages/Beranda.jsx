@@ -4,8 +4,8 @@ import Navbar from "../component/Navbar";
 const Beranda = () => {
     return (
         <>
-        <Beranda1 />
         <Navbar />
+        <Beranda1 />
         </>
     );
 }
