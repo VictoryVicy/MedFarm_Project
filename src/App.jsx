@@ -1,14 +1,19 @@
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Beranda from "./pages/Beranda";
+import Produk from "./pages/Produk";
 import "./App.css";
-import Navbar from "./component/Navbar";
-import Beranda from "./component/Beranda";
 
 export default function App() {
   return (
-    <>
-      <main>
-        <Navbar />
-        <Beranda />
-      </main>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Beranda/>} />
+        <Route path="/produk" element={<Produk/>} />
+      </Routes>
+    </Router>
   );
 }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);

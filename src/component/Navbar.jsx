@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Outlet, Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,11 @@ export default function Navbar() {
   };
 
   return (
-    <header className={window.innerWidth < 768 && scrollY > 0 ? "bg-white" : "bg-transparent"}>
+    <header
+      className={
+        window.innerWidth < 768 && scrollY > 0 ? "bg-white" : "bg-transparent"
+      }
+    >
       <div className="fixed top-0 w-full z-10">
         <div className="container mx-auto px-4 py-6">
           <div className="flex justify-between items-center">
@@ -55,134 +60,136 @@ export default function Navbar() {
                 </svg>
               </button>
             </div>
-            <div className="hidden lg:flex text-black">
+
+            <div className={`lg:flex text-black ${isOpen ? '' : 'hidden'}`}> {/* Tambahkan kelas 'hidden' jika isOpen adalah false */}
               <ul className="flex gap-8">
                 <li>
-                  <a
+                  <Link
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#beranda"
+                    to="/"
                     onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Beranda
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#produk"
+                    to="/produk"
                     onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Produk
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#skill"
+                    to="/layanan"
                     onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Layanan
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#about"
+                    to="/cariobat"
                     onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Cari Obat
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#contact"
+                    to="/lokasi"
                     onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Lokasi
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                    href="#contact"
+                    to="/admin"
                     onClick={closeNavbar}
                   >
                     <span className="underline"></span>
                     Admin
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
+            <Outlet />
           </div>
         </div>
       </div>
       {/* Mobile Navbar */}
       <motion.div
-        initial={{ height: 0 }}
-        animate={{ height: isOpen ? "auto" : 0 }}
-        transition={{ duration: 0.3 }}
-        className="lg:hidden overflow-hidden mt-10 display-flex align-center justify-center text-center shadow-lg"
-      >
+  initial={{ y: -50, opacity: 0 }} // Properti initial untuk animasi awal saat komponen dimount
+  animate={{ y: isOpen ? 0 : -50, opacity: isOpen ? 1 : 0 }} // Properti animate untuk animasi saat komponen diubah
+  transition={{ duration: 0.3 }} // Durasi transisi animasi
+  className={`lg:flex text-black items-center ${isOpen ? '' : 'hidden'}`}
+>
         <ul className="flex flex-col gap-4 mt-4">
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
             onClick={closeNavbar}
           >
-            <a href="#beranda" className="hover:underline">
+            <Link to="/" className="hover:underline">
               Beranda
-            </a>
+            </Link>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
             onClick={closeNavbar}
           >
-            <a href="#produk" className="hover:underline">
+            <Link to="/produk" className="hover:underline">
               Produk
-            </a>
+            </Link>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
             onClick={closeNavbar}
           >
-            <a href="#skill" className="hover:underline">
+            <Link to="/layanan" className="hover:underline">
               Layanan
-            </a>
+            </Link>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
             onClick={closeNavbar}
           >
-            <a href="#about" className="hover:underline">
+            <Link to="/cariobat" className="hover:underline">
               Cari Obat
-            </a>
+            </Link>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
             onClick={closeNavbar}
           >
-            <a href="#contact" className="hover:underline">
+            <Link to="/lokasi" className="hover:underline">
               Lokasi
-            </a>
+            </Link>
           </motion.li>
           <motion.li
             whileHover={{ scale: 1.1 }}
             className="cursor-pointer text-black hover:text-green-500 relative font-bold"
             onClick={closeNavbar}
           >
-            <a href="#contact" className="hover:underline">
+            <Link to="/admin" className="hover:underline">
               Admin
-            </a>
+            </Link>
           </motion.li>
         </ul>
       </motion.div>

@@ -6,7 +6,7 @@ import Barito4 from "../assets/Barito4.png";
 import Barito5 from "../assets/Barito5.png";
 import Map from "./Map";
 
-export default function Home() {
+export default function Beranda1() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {

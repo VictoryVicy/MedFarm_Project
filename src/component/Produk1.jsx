@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Skill = () => {
+const Produk1 = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -59,4 +59,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default Produk1;
