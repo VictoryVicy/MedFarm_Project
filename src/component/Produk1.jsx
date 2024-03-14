@@ -12,6 +12,7 @@ const Produk1 = () => {
   };
 
   return (
+    <>
     <section className="py-10" id="produk">
       <div className="container m-auto px-4">
         <h2 className="text-2xl font-semibold">Skill</h2>
@@ -56,6 +57,7 @@ const Produk1 = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
