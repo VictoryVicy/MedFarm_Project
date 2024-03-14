@@ -15,18 +15,17 @@ const Produk1 = () => {
     <>
     <section className="py-10" id="produk">
       <div className="container m-auto px-4">
-        <h2 className="text-2xl font-semibold">Skill</h2>
         <div className="mt-14">
           {/* Slider Gambar Obat */}
           <Slider {...settings}>
             <div>
-              <img src="gambar1.jpg" alt="Obat 1" />
+              <img src="gambar1.jpg" alt="" />
             </div>
             <div>
-              <img src="gambar2.jpg" alt="Obat 2" />
+              <img src="gambar2.jpg" alt="" />
             </div>
             <div>
-              <img src="gambar3.jpg" alt="Obat 3" />
+              <img src="gambar3.jpg" alt="" />
             </div>
           </Slider>
           {/* Jenis Obat */}
