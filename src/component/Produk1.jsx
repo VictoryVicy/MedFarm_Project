@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Jenis1 from "../assets/Jenis1.png";
 import Jenis2 from "../assets/Jenis2.png";
 import Jenis3 from "../assets/Jenis3.png";
+import { Link } from "react-router-dom";
 
 export default function Produk1() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -64,6 +65,7 @@ export default function Produk1() {
                     Paracetamol
                   </h3>
                   <p className="text-white">Rp. 4.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -77,6 +79,7 @@ export default function Produk1() {
                     Ibuprofen
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -90,6 +93,7 @@ export default function Produk1() {
                     Loperamide
                   </h3>
                   <p className="text-white">Rp. 2.500</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -103,6 +107,7 @@ export default function Produk1() {
                     Loratadine
                   </h3>
                   <p className="text-white">Rp. 5.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
@@ -116,7 +121,7 @@ export default function Produk1() {
         </div>
         <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 sm:gap-4 gap-8 relative mt-10">
           <div className="relative sm:col-span-6 bottom-32">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Paracetamol.png"
@@ -128,6 +133,7 @@ export default function Produk1() {
                     Paracetamol
                   </h3>
                   <p className="text-white">Rp. 4.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -141,6 +147,7 @@ export default function Produk1() {
                     Ibuprofen
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -154,6 +161,7 @@ export default function Produk1() {
                     Loperamide
                   </h3>
                   <p className="text-white">Rp. 2.500</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -167,6 +175,7 @@ export default function Produk1() {
                     Loratadine
                   </h3>
                   <p className="text-white">Rp. 5.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
@@ -180,7 +189,7 @@ export default function Produk1() {
         </div>
         <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 sm:gap-4 gap-8 relative mt-10">
           <div className="relative sm:col-span-6 bottom-32">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Paracetamol.png"
@@ -192,6 +201,7 @@ export default function Produk1() {
                     Paracetamol
                   </h3>
                   <p className="text-white">Rp. 4.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -205,6 +215,7 @@ export default function Produk1() {
                     Ibuprofen
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -218,6 +229,7 @@ export default function Produk1() {
                     Loperamide
                   </h3>
                   <p className="text-white">Rp. 2.500</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -231,6 +243,7 @@ export default function Produk1() {
                     Loratadine
                   </h3>
                   <p className="text-white">Rp. 5.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
@@ -244,7 +257,7 @@ export default function Produk1() {
         </div>
         <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 sm:gap-4 gap-8 relative mt-10">
           <div className="relative sm:col-span-6 bottom-32">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Paracetamol.png"
@@ -256,6 +269,7 @@ export default function Produk1() {
                     Paracetamol
                   </h3>
                   <p className="text-white">Rp. 4.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -269,9 +283,9 @@ export default function Produk1() {
                     Ibuprofen
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
-              {/* Card 3 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Loperamide.png"
@@ -283,9 +297,9 @@ export default function Produk1() {
                     Loperamide
                   </h3>
                   <p className="text-white">Rp. 2.500</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
-              {/* Card 4 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Loratadine.png"
@@ -297,6 +311,7 @@ export default function Produk1() {
                     Loratadine
                   </h3>
                   <p className="text-white">Rp. 5.000</p>
+                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>

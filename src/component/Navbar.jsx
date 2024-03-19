@@ -43,6 +43,7 @@ export default function Navbar() {
                   to="/"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >
+                  <span className="underline"></span>
                   Beranda
                 </Link>
               </li>
@@ -51,6 +52,7 @@ export default function Navbar() {
                   to="/produk"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >
+                  <span className="underline"></span>
                   Produk
                 </Link>
               </li>
@@ -59,6 +61,7 @@ export default function Navbar() {
                   to="/layanan"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >
+                  <span className="underline"></span>
                   Layanan
                 </Link>
               </li>
@@ -67,6 +70,7 @@ export default function Navbar() {
                   to="/cariobat"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >
+                  <span className="underline"></span>
                   Cari Obat
                 </Link>
               </li>
@@ -75,6 +79,7 @@ export default function Navbar() {
                   to="/lokasi"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >
+                  <span className="underline"></span>
                   Lokasi
                 </Link>
               </li>
@@ -83,6 +88,7 @@ export default function Navbar() {
                   to="/admin"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >
+                  <span className="underline"></span>
                   Admin
                 </Link>
               </li>

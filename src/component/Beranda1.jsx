@@ -142,46 +142,45 @@ export default function Beranda1() {
       </div>
     </section>
     <section>
-    <section>
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-10">
-    <h2 className="text-black text-3xl font-bold justify-center text-center relative">Layanan</h2>
-    <div className="grid grid-cols-1 gap-6 mt-8">
-      {/* Card 1 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="src/assets/Tekanan darah.png" alt="Obat 1" className="w-full h-40 object-cover" />
-        <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-white mb-2">Cek tekanan darah</h3>
-          <p className="text-white">Rp. 5.000</p>
+    <div>
+        <h1 className="text-black text-3xl font-bold justify-center text-center relative">Layanan</h1>
+      </div>
+      <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 sm:gap-4 gap-8 relative mt-10">
+        <div className="relative sm:col-span-6 bottom-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="src/assets/Asam urat.png" alt="Obat 1" className="w-full h-40 object-cover" />
+            <div className="p-4 bg-green-500">
+              <h3 className="text-lg font-semibold text-white mb-2">Cek Asam Urat</h3>
+              <p className="text-white">Rp. 15.000</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="src/assets/Gula darah.png" alt="Obat 2" className="w-full h-40 object-cover" />
+            <div className="p-4 bg-green-500">
+              <h3 className="text-lg font-semibold text-white mb-2">Cek Gula Darah</h3>
+              <p className="text-white">Rp. 15.000</p>
+            </div>
+          </div>
+          {/* Card 3 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="src/assets/Kolesterol.png" alt="Obat 3" className="w-full h-40 object-cover" />
+            <div className="p-4 bg-green-500">
+              <h3 className="text-lg font-semibold text-white mb-2">Cek Kolesterol</h3>
+              <p className="text-white">Rp. 20.000</p>
+            </div>
+          </div>
+          {/* Card 4 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="src/assets/Tekanan darah.png" alt="Obat 4" className="w-full h-40 object-cover" />
+            <div className="p-4 bg-green-500">
+              <h3 className="text-lg font-semibold text-white mb-2">Cek Tekanan Darah</h3>
+              <p className="text-white">Rp. 5.000</p>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
-      {/* Card 2 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="src/assets/Asam urat.png" alt="Obat 2" className="w-full h-40 object-cover" />
-        <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-white mb-2">Cek asam urat</h3>
-          <p className="text-white">Rp. 15.000</p>
-        </div>
-      </div>
-      {/* Card 3 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="src/assets/Gula darah.png" alt="Obat 3" className="w-full h-40 object-cover" />
-        <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-white mb-2">Cek gula darah</h3>
-          <p className="text-white">Rp. 15.000</p>
-        </div>
-      </div>
-      {/* Card 4 */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="src/assets/Kolesterol.png" alt="Obat 4" className="w-full h-40 object-cover" />
-        <div className="p-4 bg-green-500">
-          <h3 className="text-lg font-semibold text-white mb-2">Cek kolesterol</h3>
-          <p className="text-white">Rp. 20.000</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
     </section>
     <section>
       <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 flex flex-col-reverse sm:flex-row sm:gap-4 gap-8 relative justify-center text-center">
