@@ -52,15 +52,10 @@ export default function Beranda1() {
                 layanan pemeriksaan kesehatan tambahan seperti cek tekanan
                 darah, asam urat, gula darah, Hb, dan kolesterol.
               </li>
-              <li>
-                <br></br>
-              </li>
-              <li>Jalan Barito RT 8A/002, Kuala Kapuas, Kalimantan Tengah</li>
-              <li>No. Telp: 0882-1131-9646</li>
             </ul>
           </div>
           <div>
-            <button className="button1 bg-transparent rounded-3xl font-semibold py-4 px-12 border border-green-500 hover:border-transparent rounded transition-colors duration-500 mt-5 text-xl">
+            <button className="button1 bg-transparent rounded-3xl font-semibold py-4 px-12 border border-green-500 hover:border-transparent rounded transition-colors duration-500 mt-14 text-xl">
               Cari Obat!
             </button>
           </div>

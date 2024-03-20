@@ -124,58 +124,58 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Paracetamol.png"
+                  src="src/assets/Actifedsirupfludanbatuk60ml.png"
                   alt="Obat 1"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Paracetamol
+                    Actifed
                   </h3>
-                  <p className="text-white">Rp. 4.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 71.000</p>
+                  <Link to="/actifed" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Ibuprofen.png"
+                  src=""
                   alt="Obat 2"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Ibuprofen
+                    Anakodin
                   </h3>
-                  <p className="text-white">Rp. 6.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 15.000</p>
+                  <Link to="/anakodin" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Loperamide.png"
+                  src="src/assets/OBHCombiPlusBatukFluSirup60ml.png"
                   alt="Obat 3"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Loperamide
+                    OBH Combi
                   </h3>
-                  <p className="text-white">Rp. 2.500</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 18.000</p>
+                  <Link to="/obh-combi" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Loratadine.png"
+                  src="src/assets/SiladexCoughandColdsirup30ml.png"
                   alt="Obat 4"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Loratadine
+                    Siladex
                   </h3>
-                  <p className="text-white">Rp. 5.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 21.500</p>
+                  <Link to="/siladex" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
@@ -260,58 +260,58 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Paracetamol.png"
+                  src="src/assets/Caviplex-10-Kaplet.png"
                   alt="Obat 1"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Paracetamol
+                    Caviplex
                   </h3>
-                  <p className="text-white">Rp. 4.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 12.000</p>
+                  <Link to="/caviplex" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Ibuprofen.png"
+                  src="src/assets/enervon-c.png"
                   alt="Obat 2"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Ibuprofen
+                    Enervon-C
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <Link to="/enervon-c" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Loperamide.png"
+                  src="src/assets/renovit-renovit-kaplet.png"
                   alt="Obat 3"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Loperamide
+                    Renovit
                   </h3>
-                  <p className="text-white">Rp. 2.500</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 15.000</p>
+                  <Link to="/renovit" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Loratadine.png"
+                  src="src/assets/SelkomCgold.png"
                   alt="Obat 4"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Loratadine
+                    Selkom-C Gold
                   </h3>
-                  <p className="text-white">Rp. 5.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 19.000</p>
+                  <Link to="/selkom-c-gold" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
