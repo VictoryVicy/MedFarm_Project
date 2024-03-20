@@ -7,6 +7,7 @@ import Cariobat from "./pages/Cariobat";
 import Layanan from "./pages/Layanan";
 import Lokasi from "./pages/Lokasi";
 import Admin from "./pages/Admin";
+import Paracetamol from "./pages/Paracetamol";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/cariobat" element={<Cariobat/>} />
         <Route path="/lokasi" element={<Lokasi/>} />
         <Route path="/admin" element={<Admin/>} />
+        <Route path="/paracetamol" element={<Paracetamol/>} />
       </Routes>
     </Router>
   );
