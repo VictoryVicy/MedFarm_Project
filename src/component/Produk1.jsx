@@ -138,13 +138,13 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src=""
+                  src="src/assets/Anakodin.png"
                   alt="Obat 2"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Anakodin
+                    Anakonidin
                   </h3>
                   <p className="text-white">Rp. 15.000</p>
                   <Link to="/anakodin" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
