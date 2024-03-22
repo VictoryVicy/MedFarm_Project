@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import Jenis1 from "../assets/Jenis1.png";
-import Jenis2 from "../assets/Jenis2.png";
-import Jenis3 from "../assets/Jenis3.png";
+import Jenis1 from "../assets/Obat/Jenis1.png";
+import Jenis2 from "../assets/Obat/Jenis2.png";
+import Jenis3 from "../assets/Obat/Jenis3.png";
 
 export default function Produk1() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -55,7 +55,7 @@ export default function Produk1() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Cataflam.png"
+                  src="src/assets/Obat/Cataflam.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
@@ -68,7 +68,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Panadol.png"
+                  src="src/assets/Obat/Panadol.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
@@ -81,7 +81,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Ponstan.png"
+                  src="src/assets/Obat/Ponstan.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
@@ -94,7 +94,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Torasic.png"
+                  src="src/assets/Obat/Torasic.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />
@@ -119,7 +119,7 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Actifedsirupfludanbatuk60ml.png"
+                  src="src/assets/Obat/Actifedsirupfludanbatuk60ml.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
@@ -132,7 +132,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Anakodin.png"
+                  src="src/assets/Obat/Anakodin.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
@@ -145,7 +145,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/OBHCombiPlusBatukFluSirup60ml.png"
+                  src="src/assets/Obat/OBHCombiPlusBatukFluSirup60ml.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
@@ -158,7 +158,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/SiladexCoughandColdsirup30ml.png"
+                  src="src/assets/Obat/SiladexCoughandColdsirup30ml.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />
@@ -183,7 +183,7 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Claritin Tablet.png"
+                  src="src/assets/Obat/Claritin Tablet.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
@@ -196,7 +196,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Colergis Tablet.png"
+                  src="src/assets/Obat/Colergis Tablet.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
@@ -209,7 +209,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Hufadexta-M Kaplet.png"
+                  src="src/assets/Obat/Hufadexta-M Kaplet.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
@@ -222,7 +222,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Ryvel.png"
+                  src="src/assets/Obat/Ryvel.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />
@@ -247,7 +247,7 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Redoxon.png"
+                  src="src/assets/Obat/Redoxon.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
@@ -260,7 +260,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Fatigon.png"
+                  src="src/assets/Obat/Fatigon.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
@@ -273,7 +273,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/renovit-renovit-kaplet.png"
+                  src="src/assets/Obat/renovit-renovit-kaplet.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
@@ -286,7 +286,7 @@ export default function Produk1() {
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/SelkomCgold.png"
+                  src="src/assets/Obat/SelkomCgold.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />

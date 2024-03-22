@@ -11,7 +11,7 @@ const Map = () => {
 
     // Tambahkan layer peta dasar
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | MedFarm_Project',
     }).addTo(map);
 
     // Tambahkan marker pada lokasi

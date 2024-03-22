@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import Barito1 from "../assets/Barito1.png";
-import Barito2 from "../assets/Barito2.png";
-import Barito3 from "../assets/Barito3.png";
-import Barito4 from "../assets/Barito4.png";
-import Barito5 from "../assets/Barito5.png";
+import Barito1 from "../assets/Apotek/Barito1.png";
+import Barito2 from "../assets/Apotek/Barito2.png";
+import Barito3 from "../assets/Apotek/Barito3.png";
+import Barito4 from "../assets/Apotek/Barito4.png";
+import Barito5 from "../assets/Apotek/Barito5.png";
 import Map from "./Map";
 import { Link } from "react-router-dom";
 
@@ -104,7 +104,7 @@ export default function Beranda1() {
         <div className="relative sm:col-span-6 bottom-32">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Cataflam.png" alt="Obat 1" className="w-full h-30 object-cover" />
+            <img src="src/assets/Obat/Cataflam.png" alt="Obat 1" className="w-full h-30 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cataflam</h3>
               <Link
@@ -117,7 +117,7 @@ export default function Beranda1() {
             </div>
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Actifedsirupfludanbatuk60ml.png" alt="Obat 2" className="w-full h-30 object-cover" />
+            <img src="src/assets/Obat/Actifedsirupfludanbatuk60ml.png" alt="Obat 2" className="w-full h-30 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Actifed</h3>
               <Link
@@ -131,7 +131,7 @@ export default function Beranda1() {
           </div>
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Claritin Tablet.png" alt="Obat 3" className="w-full h-30 object-cover" />
+            <img src="src/assets/Obat/Claritin Tablet.png" alt="Obat 3" className="w-full h-30 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Claritin Loratadine</h3>
               <Link
@@ -145,7 +145,7 @@ export default function Beranda1() {
           </div>
           {/* Card 4 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Fatigon.png" alt="Obat 4" className="w-full h-30 object-cover" />
+            <img src="src/assets/Obat/Fatigon.png" alt="Obat 4" className="w-full h-30 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Fatigon Multivitamin</h3>
               <Link
@@ -169,7 +169,7 @@ export default function Beranda1() {
         <div className="relative sm:col-span-6 bottom-32">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Asam urat.png" alt="Obat 1" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Asam urat.png" alt="Obat 1" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Asam Urat</h3>
               <Link
@@ -182,7 +182,7 @@ export default function Beranda1() {
             </div>
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Gula darah.png" alt="Obat 2" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Gula darah.png" alt="Obat 2" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Gula Darah</h3>
               <Link
@@ -196,7 +196,7 @@ export default function Beranda1() {
           </div>
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Kolesterol.png" alt="Obat 3" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Kolesterol.png" alt="Obat 3" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Kolesterol</h3>
               <Link
@@ -210,7 +210,7 @@ export default function Beranda1() {
           </div>
           {/* Card 4 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Tekanan darah.png" alt="Obat 4" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Tekanan darah.png" alt="Obat 4" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Tekanan Darah</h3>
               <Link
