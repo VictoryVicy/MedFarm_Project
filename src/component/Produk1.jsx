@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Jenis1 from "../assets/Obat/Jenis1.png";
 import Jenis2 from "../assets/Obat/Jenis2.png";
 import Jenis3 from "../assets/Obat/Jenis3.png";
+import { Link } from "react-router-dom";
 
 export default function Produk1() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -54,11 +55,13 @@ export default function Produk1() {
           <div className="relative sm:col-span-6 bottom-32">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/cataflam">
                 <img
                   src="src/assets/Obat/Cataflam.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Cataflam 50mg
@@ -67,11 +70,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/panadol">
                 <img
                   src="src/assets/Obat/Panadol.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Panadol Paracetamol
@@ -80,11 +85,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/ponstan">
                 <img
                   src="src/assets/Obat/Ponstan.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Ponstan 500mg
@@ -93,11 +100,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/torasic">
                 <img
                   src="src/assets/Obat/Torasic.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Torasic
@@ -118,11 +127,13 @@ export default function Produk1() {
           <div className="relative sm:col-span-6 bottom-32">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/actifed">
                 <img
                   src="src/assets/Obat/Actifedsirupfludanbatuk60ml.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Actifed Plus Expectorant
@@ -131,11 +142,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/anakodin">
                 <img
                   src="src/assets/Obat/Anakodin.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     AnaKonidin
@@ -144,11 +157,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/obhcombi">
                 <img
                   src="src/assets/Obat/OBHCombiPlusBatukFluSirup60ml.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     OBH Combi
@@ -157,11 +172,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/siladex">
                 <img
                   src="src/assets/Obat/SiladexCoughandColdsirup30ml.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Siladex
@@ -182,11 +199,13 @@ export default function Produk1() {
           <div className="relative sm:col-span-6 bottom-32">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/claritin">
                 <img
                   src="src/assets/Obat/Claritin Tablet.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Claritin Loratadine
@@ -195,11 +214,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/colergis">
                 <img
                   src="src/assets/Obat/Colergis Tablet.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Colergis
@@ -208,11 +229,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/hufadexta">
                 <img
                   src="src/assets/Obat/Hufadexta-M Kaplet.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Hufadexta-M Kaplet
@@ -221,11 +244,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/ryvel">
                 <img
                   src="src/assets/Obat/Ryvel.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     RYVEL Cetirizene HCl
@@ -246,11 +271,13 @@ export default function Produk1() {
           <div className="relative sm:col-span-6 bottom-32">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/redoxon">
                 <img
                   src="src/assets/Obat/Redoxon.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Redoxon Double Action
@@ -259,11 +286,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/fatigon">
                 <img
                   src="src/assets/Obat/Fatigon.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Fatigon Multivitamin
@@ -272,11 +301,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/renovit">
                 <img
                   src="src/assets/Obat/renovit-renovit-kaplet.png"
                   alt="Obat 3"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Renovit
@@ -285,11 +316,13 @@ export default function Produk1() {
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <Link to="/selkomcgold">
                 <img
                   src="src/assets/Obat/SelkomCgold.png"
                   alt="Obat 4"
                   className="w-full h-30 object-cover"
                 />
+                </Link>
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Selkom-C Gold
