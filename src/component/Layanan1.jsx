@@ -34,10 +34,10 @@ export default function Layanan1() {
           </div>
           {/* New Card */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/New_Image.png" alt="Obat 5" className="w-full h-40 object-cover" />
+            <img src="src/assets/hemoglobin.png" alt="Obat 5" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-white mb-2">Judul Baru</h3>
-              <p className="text-white">Rp. 10.000</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Cek Hemoglobin</h3>
+              <p className="text-white">Rp. 15.000</p>
             </div>
           </div>
         </div>

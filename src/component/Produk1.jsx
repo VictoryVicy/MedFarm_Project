@@ -61,7 +61,7 @@ export default function Produk1() {
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Cataflam
+                    Cataflam 50mg
                   </h3>
                   <p className="text-white">Rp. 4.000</p>
                 </div>
@@ -74,7 +74,7 @@ export default function Produk1() {
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Panadol
+                    Panadol Paracetamol
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
                 </div>
@@ -87,7 +87,7 @@ export default function Produk1() {
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Ponstan
+                    Ponstan 500mg
                   </h3>
                   <p className="text-white">Rp. 2.500</p>
                 </div>
@@ -125,7 +125,7 @@ export default function Produk1() {
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Actifed
+                    Actifed Plus Expectorant
                   </h3>
                   <p className="text-white">Rp. 71.000</p>
                 </div>
@@ -138,7 +138,7 @@ export default function Produk1() {
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Anakonidin
+                    AnaKonidin
                   </h3>
                   <p className="text-white">Rp. 15.000</p>
                 </div>
@@ -228,7 +228,7 @@ export default function Produk1() {
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Ryvel
+                    RYVEL Cetirizene HCl
                   </h3>
                   <p className="text-white">Rp. 63.000</p>
                 </div>
@@ -247,26 +247,26 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/cavplex.png"
+                  src="src/assets/Redoxon.png"
                   alt="Obat 1"
                   className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Caviplex
+                    Redoxon Double Action
                   </h3>
-                  <p className="text-white">Rp. 12.000</p>
+                  <p className="text-white">Rp. 33.000 - Rp130.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/enervon-c.png"
+                  src="src/assets/Fatigon.png"
                   alt="Obat 2"
                   className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Enervon-C
+                    Fatigon Multivitamin
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
                 </div>
