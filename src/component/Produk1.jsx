@@ -63,7 +63,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Cataflam 50mg
                   </h3>
-                  <p className="text-white">Rp. 4.000</p>
+                  <p className="text-white">Rp 4.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -76,7 +76,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Panadol Paracetamol
                   </h3>
-                  <p className="text-white">Rp. 6.000</p>
+                  <p className="text-white">Rp 6.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -89,7 +89,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Ponstan 500mg
                   </h3>
-                  <p className="text-white">Rp. 2.500</p>
+                  <p className="text-white">Rp 2.500</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -102,7 +102,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Torasic
                   </h3>
-                  <p className="text-white">Rp. 5.000</p>
+                  <p className="text-white">Rp 5.000</p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Actifed Plus Expectorant
                   </h3>
-                  <p className="text-white">Rp. 71.000</p>
+                  <p className="text-white">Rp 71.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -140,7 +140,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     AnaKonidin
                   </h3>
-                  <p className="text-white">Rp. 15.000</p>
+                  <p className="text-white">Rp 15.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -153,7 +153,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     OBH Combi
                   </h3>
-                  <p className="text-white">Rp. 18.000</p>
+                  <p className="text-white">Rp 18.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -166,7 +166,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Siladex
                   </h3>
-                  <p className="text-white">Rp. 21.500</p>
+                  <p className="text-white">Rp 21.500</p>
                 </div>
               </div>
             </div>
@@ -191,7 +191,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Claritin Loratadine
                   </h3>
-                  <p className="text-white">Rp. 118.000</p>
+                  <p className="text-white">Rp 118.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -204,7 +204,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Colergis
                   </h3>
-                  <p className="text-white">Rp. 43.000</p>
+                  <p className="text-white">Rp 43.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -217,7 +217,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Hufadexta-M Kaplet
                   </h3>
-                  <p className="text-white">Rp. 4.000</p>
+                  <p className="text-white">Rp 4.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -230,7 +230,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     RYVEL Cetirizene HCl
                   </h3>
-                  <p className="text-white">Rp. 63.000</p>
+                  <p className="text-white">Rp 63.000</p>
                 </div>
               </div>
             </div>
@@ -255,7 +255,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Redoxon Double Action
                   </h3>
-                  <p className="text-white">Rp. 33.000 - Rp130.000</p>
+                  <p className="text-white">Rp 33.000 - Rp130.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -268,7 +268,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Fatigon Multivitamin
                   </h3>
-                  <p className="text-white">Rp. 6.000</p>
+                  <p className="text-white">Rp 75.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -281,7 +281,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Renovit
                   </h3>
-                  <p className="text-white">Rp. 15.000</p>
+                  <p className="text-white">Rp 15.000</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -294,7 +294,7 @@ export default function Produk1() {
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Selkom-C Gold
                   </h3>
-                  <p className="text-white">Rp. 19.000</p>
+                  <p className="text-white">Rp 19.000</p>
                 </div>
               </div>
             </div>
