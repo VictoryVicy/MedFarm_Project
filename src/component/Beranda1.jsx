@@ -5,6 +5,7 @@ import Barito3 from "../assets/Barito3.png";
 import Barito4 from "../assets/Barito4.png";
 import Barito5 from "../assets/Barito5.png";
 import Map from "./Map";
+import { Link } from "react-router-dom";
 
 export default function Beranda1() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -56,7 +57,7 @@ export default function Beranda1() {
           </div>
           <div>
             <button className="button1 bg-transparent rounded-3xl font-semibold py-4 px-12 border border-green-500 hover:border-transparent rounded transition-colors duration-500 mt-14 text-xl">
-              Cari Obat!
+              <Link to="/temukan-penyakit">Temukan Obatmu!</Link>
             </button>
           </div>
         </div>
@@ -106,14 +107,26 @@ export default function Beranda1() {
             <img src="src/assets/Cataflam.png" alt="Obat 1" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cataflam</h3>
-              <p className="text-white">Rp. 4.000</p>
+              <Link
+                  to="/produk"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img src="src/assets/Actifedsirupfludanbatuk60ml.png" alt="Obat 2" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Actifed</h3>
-              <p className="text-white">Rp. 71.000</p>
+              <Link
+                  to="/produk"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
           {/* Card 3 */}
@@ -121,7 +134,13 @@ export default function Beranda1() {
             <img src="src/assets/Claritin Tablet.png" alt="Obat 3" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Claritin Loratadine</h3>
-              <p className="text-white">Rp. 118.000</p>
+              <Link
+                  to="/produk"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
           {/* Card 4 */}
@@ -129,7 +148,13 @@ export default function Beranda1() {
             <img src="src/assets/enervon-c.png" alt="Obat 4" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Enervon-C</h3>
-              <p className="text-white">Rp. 6.000</p>
+              <Link
+                  to="/produk"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
         </div>
@@ -147,14 +172,26 @@ export default function Beranda1() {
             <img src="src/assets/Asam urat.png" alt="Obat 1" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Asam Urat</h3>
-              <p className="text-white">Rp. 15.000</p>
+              <Link
+                  to="/layanan"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img src="src/assets/Gula darah.png" alt="Obat 2" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Gula Darah</h3>
-              <p className="text-white">Rp. 15.000</p>
+              <Link
+                  to="/layanan"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
           {/* Card 3 */}
@@ -162,7 +199,13 @@ export default function Beranda1() {
             <img src="src/assets/Kolesterol.png" alt="Obat 3" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Kolesterol</h3>
-              <p className="text-white">Rp. 20.000</p>
+              <Link
+                  to="/layanan"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
           {/* Card 4 */}
@@ -170,7 +213,13 @@ export default function Beranda1() {
             <img src="src/assets/Tekanan darah.png" alt="Obat 4" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Tekanan Darah</h3>
-              <p className="text-white">Rp. 5.000</p>
+              <Link
+                  to="/layanan"
+                  className="nav cursor-pointer text-white relative"
+                >
+                  <span className="underline1"></span>
+                  Info selengkapnya
+                </Link>
             </div>
           </div>
         </div>

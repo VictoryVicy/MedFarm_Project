@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Jenis1 from "../assets/Jenis1.png";
 import Jenis2 from "../assets/Jenis2.png";
 import Jenis3 from "../assets/Jenis3.png";
-import { Link } from "react-router-dom";
 
 export default function Produk1() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -58,56 +57,52 @@ export default function Produk1() {
                 <img
                   src="src/assets/Cataflam.png"
                   alt="Obat 1"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Cataflam
                   </h3>
                   <p className="text-white">Rp. 4.000</p>
-                  <Link to="/cataflam" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Panadol.png"
                   alt="Obat 2"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Panadol
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
-                  <Link to="/panadol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Ponstan.png"
                   alt="Obat 3"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Ponstan
                   </h3>
                   <p className="text-white">Rp. 2.500</p>
-                  <Link to="/ponstan" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Torasic.png"
                   alt="Obat 4"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Torasic
                   </h3>
                   <p className="text-white">Rp. 5.000</p>
-                  <Link to="/torasic" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
@@ -126,56 +121,52 @@ export default function Produk1() {
                 <img
                   src="src/assets/Actifedsirupfludanbatuk60ml.png"
                   alt="Obat 1"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Actifed
                   </h3>
                   <p className="text-white">Rp. 71.000</p>
-                  <Link to="/actifed" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Anakodin.png"
                   alt="Obat 2"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Anakonidin
                   </h3>
                   <p className="text-white">Rp. 15.000</p>
-                  <Link to="/anakodin" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/OBHCombiPlusBatukFluSirup60ml.png"
                   alt="Obat 3"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     OBH Combi
                   </h3>
                   <p className="text-white">Rp. 18.000</p>
-                  <Link to="/obh-combi" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/SiladexCoughandColdsirup30ml.png"
                   alt="Obat 4"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Siladex
                   </h3>
                   <p className="text-white">Rp. 21.500</p>
-                  <Link to="/siladex" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
@@ -194,56 +185,52 @@ export default function Produk1() {
                 <img
                   src="src/assets/Claritin Tablet.png"
                   alt="Obat 1"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Claritin Loratadine
                   </h3>
                   <p className="text-white">Rp. 118.000</p>
-                  <Link to="/claritin-loratadine" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Colergis Tablet.png"
                   alt="Obat 2"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Colergis
                   </h3>
                   <p className="text-white">Rp. 43.000</p>
-                  <Link to="/colergis" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/Hufadexta-M Kaplet.png"
                   alt="Obat 3"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Hufadexta-M Kaplet
                   </h3>
                   <p className="text-white">Rp. 4.000</p>
-                  <Link to="/hufadexta" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/RYVEL.png"
+                  src="src/assets/Ryvel.png"
                   alt="Obat 4"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Ryvel
                   </h3>
                   <p className="text-white">Rp. 63.000</p>
-                  <Link to="/ryvel" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
@@ -260,58 +247,54 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Caviplex-10-Kaplet.png"
+                  src="src/assets/cavplex.png"
                   alt="Obat 1"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Caviplex
                   </h3>
                   <p className="text-white">Rp. 12.000</p>
-                  <Link to="/caviplex" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/enervon-c.png"
                   alt="Obat 2"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Enervon-C
                   </h3>
                   <p className="text-white">Rp. 6.000</p>
-                  <Link to="/enervon-c" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/renovit-renovit-kaplet.png"
                   alt="Obat 3"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Renovit
                   </h3>
                   <p className="text-white">Rp. 15.000</p>
-                  <Link to="/renovit" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="src/assets/SelkomCgold.png"
                   alt="Obat 4"
-                  className="w-full h-40 object-cover"
+                  className="w-full h-30 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
                     Selkom-C Gold
                   </h3>
                   <p className="text-white">Rp. 19.000</p>
-                  <Link to="/selkom-c-gold" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
