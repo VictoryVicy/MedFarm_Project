@@ -1,6 +1,6 @@
 
 
-export default function Cariobat1() {
+export default function Penyakit1() {
     return (
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">

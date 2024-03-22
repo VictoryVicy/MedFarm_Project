@@ -67,11 +67,11 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/cariobat"
+                  to="/temukan-penyakit"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >
                   <span className="underline"></span>
-                  Cari Obat
+                  Penyakit
                 </Link>
               </li>
               <li>

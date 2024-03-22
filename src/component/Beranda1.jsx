@@ -103,33 +103,33 @@ export default function Beranda1() {
         <div className="relative sm:col-span-6 bottom-32">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Paracetamol.png" alt="Obat 1" className="w-full h-40 object-cover" />
+            <img src="src/assets/Cataflam.png" alt="Obat 1" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-white mb-2">Paracetamol</h3>
+              <h3 className="text-lg font-semibold text-white mb-2">Cataflam</h3>
               <p className="text-white">Rp. 4.000</p>
             </div>
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Ibuprofen.png" alt="Obat 2" className="w-full h-40 object-cover" />
+            <img src="src/assets/Actifedsirupfludanbatuk60ml.png" alt="Obat 2" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-white mb-2">Ibuprofen</h3>
-              <p className="text-white">Rp. 6.000</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Actifed</h3>
+              <p className="text-white">Rp. 71.000</p>
             </div>
           </div>
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Loperamide.png" alt="Obat 3" className="w-full h-40 object-cover" />
+            <img src="src/assets/Claritin Tablet.png" alt="Obat 3" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-white mb-2">Loperamide</h3>
-              <p className="text-white">Rp. 2.500</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Claritin Loratadine</h3>
+              <p className="text-white">Rp. 118.000</p>
             </div>
           </div>
           {/* Card 4 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Loratadine.png" alt="Obat 4" className="w-full h-40 object-cover" />
+            <img src="src/assets/enervon-c.png" alt="Obat 4" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
-              <h3 className="text-lg font-semibold text-white mb-2">Loratadine</h3>
-              <p className="text-white">Rp. 5.000</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Enervon-C</h3>
+              <p className="text-white">Rp. 6.000</p>
             </div>
           </div>
         </div>

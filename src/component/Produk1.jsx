@@ -45,7 +45,7 @@ export default function Produk1() {
       <section>
         <div>
           <h1 className="text-black text-3xl font-bold justify-center text-center relative">
-            Produk Obat
+            Obat Apotek Barito
           </h1>
         </div>
         <div className="ml-8 mt-10 text-2xl text-black font-bold">
@@ -192,58 +192,58 @@ export default function Produk1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Paracetamol.png"
+                  src="src/assets/Claritin Tablet.png"
                   alt="Obat 1"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Paracetamol
+                    Claritin Loratadine
                   </h3>
-                  <p className="text-white">Rp. 4.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 118.000</p>
+                  <Link to="/claritin-loratadine" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Ibuprofen.png"
+                  src="src/assets/Colergis Tablet.png"
                   alt="Obat 2"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Ibuprofen
+                    Colergis
                   </h3>
-                  <p className="text-white">Rp. 6.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 43.000</p>
+                  <Link to="/colergis" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Loperamide.png"
+                  src="src/assets/Hufadexta-M Kaplet.png"
                   alt="Obat 3"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Loperamide
+                    Hufadexta-M Kaplet
                   </h3>
-                  <p className="text-white">Rp. 2.500</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 4.000</p>
+                  <Link to="/hufadexta" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="src/assets/Loratadine.png"
+                  src="src/assets/RYVEL.png"
                   alt="Obat 4"
                   className="w-full h-40 object-cover"
                 />
                 <div className="p-4 bg-green-500">
                   <h3 className="text-lg font-semibold text-white mb-2">
-                    Loratadine
+                    Ryvel
                   </h3>
-                  <p className="text-white">Rp. 5.000</p>
-                  <Link to="/detail/paracetamol" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
+                  <p className="text-white">Rp. 63.000</p>
+                  <Link to="/ryvel" className="text-white hover:underline">Lihat Detail Produk</Link> {/* Tambahkan Link */}
                 </div>
               </div>
             </div>
