@@ -169,7 +169,7 @@ export default function Beranda1() {
         <div className="relative sm:col-span-6 bottom-32">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Layanan/Asam urat.png" alt="Obat 1" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Cek_asam_urat.png" alt="Obat 1" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Asam Urat</h3>
               <Link
@@ -182,7 +182,7 @@ export default function Beranda1() {
             </div>
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Layanan/Gula darah.png" alt="Obat 2" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Cek_gula_darah.png" alt="Obat 2" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Gula Darah</h3>
               <Link
@@ -196,7 +196,7 @@ export default function Beranda1() {
           </div>
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Layanan/Kolesterol.png" alt="Obat 3" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Cek_kolesterol.png" alt="Obat 3" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Kolesterol</h3>
               <Link
@@ -210,7 +210,7 @@ export default function Beranda1() {
           </div>
           {/* Card 4 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="src/assets/Layanan/Tekanan darah.png" alt="Obat 4" className="w-full h-40 object-cover" />
+            <img src="src/assets/Layanan/Cek tekanan darah.png" alt="Obat 4" className="w-full h-40 object-cover" />
             <div className="p-4 bg-green-500">
               <h3 className="text-lg font-semibold text-white mb-2">Cek Tekanan Darah</h3>
               <Link
