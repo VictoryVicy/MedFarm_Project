@@ -5,18 +5,12 @@ export default function Layanan1() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   // State untuk menyimpan informasi konten modal
   const [modalContent, setModalContent] = useState({
-    title: "",
-    description: "",
-    causes: "",
     treatment: "",
   });
 
   // Fungsi untuk menampilkan modal
-  const openModal = (title, description, causes, treatment) => {
+  const openModal = ( treatment ) => {
     setModalContent({
-      title,
-      description,
-      causes,
       treatment,
     });
     setIsModalOpen(true);
@@ -57,15 +51,12 @@ export default function Layanan1() {
             <button
               onClick={() =>
                 openModal(
-                  "Cek Asam Urat",
-                  "Deskripsi pengertian cek asam urat",
-                  "Penyebab cek asam urat",
                   "Cara penanganan atau pencegahan cek asam urat"
                 )
               }
               className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
             >
-              Click Me
+              Cek sekarang
             </button>
           </div>
         </div>
@@ -93,15 +84,12 @@ export default function Layanan1() {
             <button
               onClick={() =>
                 openModal(
-                  "Cek Gula Darah",
-                  "Deskripsi pengertian cek gula darah",
-                  "Penyebab cek gula darah",
                   "Cara penanganan atau pencegahan cek gula darah"
                 )
               }
               className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
             >
-              Click Me
+              Cek Sekarang
             </button>
           </div>
         </div>
@@ -130,15 +118,12 @@ export default function Layanan1() {
             <button
               onClick={() =>
                 openModal(
-                  "Cek Gula Darah",
-                  "Deskripsi pengertian cek gula darah",
-                  "Penyebab cek gula darah",
-                  "Cara penanganan atau pencegahan cek gula darah"
+                  "Cara penanganan atau pencegahan kolesterol"
                 )
               }
               className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
             >
-              Click Me
+              Cek Sekarang
             </button>
           </div>
         </div>
@@ -167,15 +152,12 @@ export default function Layanan1() {
             <button
               onClick={() =>
                 openModal(
-                  "Cek Gula Darah",
-                  "Deskripsi pengertian cek gula darah",
-                  "Penyebab cek gula darah",
                   "Cara penanganan atau pencegahan cek gula darah"
                 )
               }
               className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
             >
-              Click Me
+              Cek Sekarang
             </button>
           </div>
         </div>
@@ -184,7 +166,7 @@ export default function Layanan1() {
           <img
             src="src/assets/Layanan/Cek_hemoglobin.png"
             alt="Obat 2"
-            className="w-1/3 h-[350px] object-cover"
+            className="w-[64%] h-[300px] object-cover"
           />
           <div className="p-4 flex-grow bg-green-500">
             <h3 className="text-lg font-semibold text-white mb-2">
@@ -201,15 +183,12 @@ export default function Layanan1() {
             <button
               onClick={() =>
                 openModal(
-                  "Cek Gula Darah",
-                  "Deskripsi pengertian cek gula darah",
-                  "Penyebab cek gula darah",
                   "Cara penanganan atau pencegahan cek gula darah"
                 )
               }
               className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
             >
-              Click Me
+              Cek Sekarang
             </button>
           </div>
         </div>
@@ -218,13 +197,7 @@ export default function Layanan1() {
       {isModalOpen && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center">
           <div className="bg-white rounded-lg p-8 max-w-md">
-            <h2 className="text-lg text-black font-semibold mb-4">
-              {modalContent.title}
-            </h2>
-            <p>{modalContent.description}</p>
-            <h3 className="text-lg text-black font-semibold mt-4">Penyebab</h3>
-            <p>{modalContent.causes}</p>
-            <h3 className="text-lg text-black font-semibold mt-4">
+            <h3 className="text-lg text-black font-semibold">
               Cara Penanganan/Pencegahan
             </h3>
             <p>{modalContent.treatment}</p>
@@ -232,7 +205,7 @@ export default function Layanan1() {
               onClick={closeModal}
               className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
             >
-              Close
+              Tutup
             </button>
           </div>
         </div>
