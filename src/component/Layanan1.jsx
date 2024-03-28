@@ -54,7 +54,7 @@ export default function Layanan1() {
                   "Cara penanganan atau pencegahan cek asam urat"
                 )
               }
-              className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
+              className="bg-blue-500 text-white px-4 py-2 mt-20 rounded-md"
             >
               Cek sekarang
             </button>
@@ -87,7 +87,7 @@ export default function Layanan1() {
                   "Cara penanganan atau pencegahan cek gula darah"
                 )
               }
-              className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
+              className="bg-blue-500 text-white px-4 py-2 mt-20 rounded-md"
             >
               Cek Sekarang
             </button>
@@ -121,7 +121,7 @@ export default function Layanan1() {
                   "Cara penanganan atau pencegahan kolesterol"
                 )
               }
-              className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
+              className="bg-blue-500 text-white px-4 py-2 mt-14 rounded-md"
             >
               Cek Sekarang
             </button>
@@ -155,7 +155,7 @@ export default function Layanan1() {
                   "Cara penanganan atau pencegahan cek gula darah"
                 )
               }
-              className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
+              className="bg-blue-500 text-white px-4 py-2 mt-14 rounded-md"
             >
               Cek Sekarang
             </button>
@@ -186,7 +186,7 @@ export default function Layanan1() {
                   "Cara penanganan atau pencegahan cek gula darah"
                 )
               }
-              className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
+              className="bg-blue-500 text-white px-4 py-2 mt-24 mx-auto rounded-md"
             >
               Cek Sekarang
             </button>
@@ -203,7 +203,7 @@ export default function Layanan1() {
             <p>{modalContent.treatment}</p>
             <button
               onClick={closeModal}
-              className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md"
+              className="bg-red-500 text-white px-4 py-2 mt-4 rounded-md"
             >
               Tutup
             </button>

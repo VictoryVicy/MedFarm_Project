@@ -76,15 +76,6 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/lokasi"
-                  className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
-                >
-                  <span className="underline"></span>
-                  Lokasi
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/admin"
                   className="nav cursor-pointer text-black hover:text-green-500 relative font-bold"
                 >

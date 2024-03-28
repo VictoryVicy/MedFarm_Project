@@ -6,7 +6,6 @@ import Beranda from "./pages/Beranda";
 import Produk from "./pages/Produk";
 import Penyakit from "./pages/Penyakit";
 import Layanan from "./pages/Layanan";
-import Lokasi from "./pages/Lokasi";
 import Admin from "./pages/Admin";
 
 {/* Produk */}
@@ -20,7 +19,6 @@ export default function App() {
         <Route path="/produk" element={<Produk/>} />
         <Route path="/layanan" element={<Layanan/>} />
         <Route path="/temukan-penyakit" element={<Penyakit/>} />
-        <Route path="/lokasi" element={<Lokasi/>} />
         <Route path="/admin" element={<Admin/>} />
       </Routes>
     </Router>
