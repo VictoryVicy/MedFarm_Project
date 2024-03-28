@@ -1,30 +1,15 @@
-
+import Map from "./Map";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="container m-auto flex justify-between px-4 py-6">
-        <div>
-          <p className="text-gray-300 text-sm">Copyright &copy; 2023</p>
+    <footer className="container mt-10 bg-green-700 py-10">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <div className="md:w-1/2">
+          <p className="text-white text-sm mb-4 md:mb-0">Alamat : Jl. Barito No. XX, Jakarta Selatan</p>
+          <p className="text-white text-sm mb-4 md:mb-0">No Telepon : </p>
         </div>
-        <div>
-          <ul className="flex gap-6">
-            <li>
-              <a href="https://www.facebook.com/VictoryKuriakos">
-                <img className="w-6" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/victory-kuriakos-a-47280828a">
-                <img className="w-6" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/for_vicy">
-                <img className="w-6" />
-              </a>
-            </li>
-          </ul>
+        <div className="md:w-1/2 flex justify-end">
+          <Map />
         </div>
       </div>
     </footer>

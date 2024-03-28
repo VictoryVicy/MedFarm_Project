@@ -57,6 +57,11 @@ body {
   border-color: #14967F;
 }
 
+footer {
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
 
 @keyframes typing-text {
   from {

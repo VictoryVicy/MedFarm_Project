@@ -4,7 +4,6 @@ import Barito2 from "../assets/Apotek/Barito2.png";
 import Barito3 from "../assets/Apotek/Barito3.png";
 import Barito4 from "../assets/Apotek/Barito4.png";
 import Barito5 from "../assets/Apotek/Barito5.png";
-import Map from "./Map";
 import { Link } from "react-router-dom";
 
 export default function Beranda1() {
@@ -39,7 +38,7 @@ export default function Beranda1() {
 
   return (
     <>
-    <section id="beranda">
+    <section id="beranda" className="mt-10">
       <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 flex flex-col-reverse sm:flex-row sm:gap-4 gap-8 relative">
         <div className="sm:col-span-6">
           <h1 className="font-bold text-5xl text-black">Apotek Barito</h1>
@@ -225,17 +224,6 @@ export default function Beranda1() {
         </div>
         </div>
       </div>
-    </section>
-    <section>
-      <div className="container m-auto px-4 sm:px-6 lg:px-8 pt-8 sm:py-32 flex flex-col-reverse sm:flex-row sm:gap-4 gap-8 relative justify-center text-center">
-        <div className="relative sm:col-span-6">
-          
-    <div>
-        <h1 className="text-black text-3xl font-bold relative">Lokasi</h1>
-      </div>
-        </div>
-      </div>
-      <Map />
     </section>
     </>
   );
